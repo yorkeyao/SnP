@@ -16,7 +16,7 @@ As shown in figure above, we present a search and pruning (SnP) solution to the 
 
 ## Re-ID Dataset Preparation
 
-![fig1](https://github.com/yorkeyao/SnP/blob/main/images/datasets.jpg)  
+<img src="https://github.com/yorkeyao/SnP/blob/main/images/datasets.jpg" alt="drawing" width="200"/>
 
 Please prepare the following datasets for person re-ID: [DukeMTMC-reID](https://exposing.ai/duke_mtmc/), [Market1503](https://zheng-lab.cecs.anu.edu.au/Project/project_reid.html), [MSMT17](http://www.pkuvmc.com/publications/msmt17.html), [CUHK03](https://www.ee.cuhk.edu.hk/~xgwang/CUHK_identification.html), [RAiD](https://cs-people.bu.edu/dasabir/raid.php), [PersonX](https://github.com/sxzrt/Instructions-of-the-PersonX-dataset), [UnrealPerson](https://github.com/FlyHighest/UnrealPerson), [RandPerson](https://github.com/VideoObjectSearch/RandPerson), [PKU-Reid](https://github.com/charliememory/PKU-Reid-Dataset), [VIPeR](https://vision.soe.ucsc.edu/node/178), [AlicePerson (target data in VisDA20)](https://github.com/Simon4Yan/VisDA2020).
 
@@ -62,7 +62,7 @@ You may need to sign up to get access to some of these datasets. Please store th
     │   │ ...
     │
     └───i-LIDS-VID
-    │   │ PKUv1a_128x48
+    │   │ images
     │   │ ...
     │
     └───VIPeR
@@ -97,15 +97,16 @@ Please store these datasets in a file strcuture like this
     │   │ ...
     │
     └───stanford_cars
-    │   │ PKUv1a_128x48
+    │   │ cars_train
     │   │ ...
     │
-    └───i-LIDS-VID
-    │   │ PKUv1a_128x48
+    └───compcars
+    │   │ CompCars
     │   │ ...
     │
-    └───VIPeR
-    │   │ images
+    └───PKU-VD
+    │   │ VD1
+    │   │ VD2
     │   │ ...
 ```
 
