@@ -4,7 +4,7 @@ This repository includes our code for the paper 'Large-scale Training Data Searc
 
 Related material: [Paper](https://arxiv.org/abs/1912.08855), [Video](https://youtu.be/OAZ0Pka2mKE)
 
-![fig1](https://github.com/yorkeyao/SnP/tree/main/images/SnP.jpg)  
+![fig1](https://github.com/yorkeyao/SnP/blob/main/images/SnP.jpg)  
 
 
 
