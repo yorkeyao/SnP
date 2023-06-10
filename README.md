@@ -4,7 +4,8 @@ This repository includes our code for the paper 'Large-scale Training Data Searc
 
 Related material: [Paper](https://arxiv.org/abs/1912.08855), [Video](https://youtu.be/OAZ0Pka2mKE)
 
-![fig1](https://github.com/yorkeyao/SnP/blob/main/images/SnP.jpg)  
+<!-- ![fig1](https://github.com/yorkeyao/SnP/blob/main/images/SnP.jpg)  -->
+<img src="https://github.com/yorkeyao/SnP/blob/main/images/SnP.jpg" alt="drawing" width="700"/> 
 
 As shown in figure above, we present a search and pruning (SnP) solution to the training data search problem in object re-ID. The source data pool is 1 order of magnitude larger than existing re-ID training sets in terms of the number of images and the number of identities. When the target is AlicePerson, from the source pool, our method (SnP) results in a training set 80\% smaller than the source pool while achieving a similar or even higher re-ID accuracy. The searched training set is also superior to existing individual training sets such as Market-1501, Duke, and MSMT.
 
@@ -16,7 +17,8 @@ As shown in figure above, we present a search and pruning (SnP) solution to the 
 
 ## Re-ID Dataset Preparation
 
-<img src="https://github.com/yorkeyao/SnP/blob/main/images/datasets.jpg" alt="drawing" width="200"/>
+
+![fig1](https://github.com/yorkeyao/SnP/blob/main/images/datasets.jpg)  
 
 Please prepare the following datasets for person re-ID: [DukeMTMC-reID](https://exposing.ai/duke_mtmc/), [Market1503](https://zheng-lab.cecs.anu.edu.au/Project/project_reid.html), [MSMT17](http://www.pkuvmc.com/publications/msmt17.html), [CUHK03](https://www.ee.cuhk.edu.hk/~xgwang/CUHK_identification.html), [RAiD](https://cs-people.bu.edu/dasabir/raid.php), [PersonX](https://github.com/sxzrt/Instructions-of-the-PersonX-dataset), [UnrealPerson](https://github.com/FlyHighest/UnrealPerson), [RandPerson](https://github.com/VideoObjectSearch/RandPerson), [PKU-Reid](https://github.com/charliememory/PKU-Reid-Dataset), [VIPeR](https://vision.soe.ucsc.edu/node/178), [AlicePerson (target data in VisDA20)](https://github.com/Simon4Yan/VisDA2020).
 
