@@ -2,7 +2,7 @@
 
 This repository includes our code for the paper 'Large-scale Training Data Search for Object Re-identification' in CVPR2023.
 
-Related material: [Paper](https://arxiv.org/abs/1912.08855), [Video](https://youtu.be/OAZ0Pka2mKE)
+Related material: [Paper](https://arxiv.org/pdf/2303.16186), [Video](https://youtu.be/OAZ0Pka2mKE)
 
 <!-- ![fig1](https://github.com/yorkeyao/SnP/blob/main/images/SnP.jpg)  -->
 <img src="https://github.com/yorkeyao/SnP/blob/main/images/SnP.jpg" alt="drawing" width="700"/> 
