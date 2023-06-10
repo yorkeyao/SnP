@@ -1,4 +1,4 @@
-## Search and Pruning (SnP) 
+## Search and Pruning (SnP) for Training Set Search
 
 This repository includes our code for the paper 'Large-scale Training Data Search for Object Re-identification' in CVPR2023.
 
@@ -15,7 +15,7 @@ As shown in figure above, we present a search and pruning (SnP) solution to the 
 - Scipy 1.2.1
 - PyTorch 1.7.0 + torchivision 0.8.1
 
-## Re-ID Dataset Preparation
+## Re-ID Datasets Preparation
 
 
 ![fig1](https://github.com/yorkeyao/SnP/blob/main/images/datasets.jpg)  
@@ -114,7 +114,7 @@ Please store these datasets in a file strcuture like this
 
 ## Running example 
 
-<img src="https://github.com/yorkeyao/SnP/blob/main/images/SnP.gif" alt="drawing" width="500"/> 
+<img src="https://github.com/yorkeyao/SnP/blob/main/images/SnP.gif" alt="drawing" width="600"/> 
 
 The SnP framework are shown in animation above. For running such process, when Market is used as target, we can seach a training set with 2860 IDs using the command below:
 
