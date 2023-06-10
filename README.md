@@ -1,4 +1,4 @@
-## Search and Pruning (SnP) for Training Set Search
+## Search and Pruning (SnP) Framework for Training Set Search
 
 This repository includes our code for the paper 'Large-scale Training Data Search for Object Re-identification' in CVPR2023.
 
