@@ -124,7 +124,7 @@ When VeRi is used as target, the command is:
 
 ```python
 python trainingset_search_vehicle.py --target 'veri' \
---result_dir './results/sample_data_veri_withVW_vds/' --n_num_id 3118 \
+--result_dir './results/sample_data_veri/' --n_num_id 3118 \
 --ID_sampling_method SnP --img_sampling_method 'FPS' --img_sampling_ratio 0.5 \
 --output_data '/data/data/VeRi/SnP_3118IDs_0.5Imgs_0610'
 ```
