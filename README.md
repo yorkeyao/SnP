@@ -5,7 +5,12 @@ This repository includes our code for the paper 'Large-scale Training Data Searc
 Related material: [Paper](https://arxiv.org/pdf/2303.16186), [Video](https://youtu.be/OAZ0Pka2mKE), [Zhihu](https://zhuanlan.zhihu.com/p/641872113)
 
 <!-- ![fig1](https://github.com/yorkeyao/SnP/blob/main/images/SnP.jpg)  -->
-<img src="https://github.com/yorkeyao/SnP/blob/main/images/SnP.jpg" alt="drawing" width="500"/> 
+
+<div align="center">
+    <a href="./">
+        <img src="https://github.com/yorkeyao/SnP/blob/main/images/SnP.jpg" width="500"/>
+    </a>
+</div>
 
 As shown in figure above, we present a search and pruning (SnP) solution to the training data search problem in object re-ID. The source data pool is 1 order of magnitude larger than existing re-ID training sets in terms of the number of images and the number of identities. When the target is AlicePerson, from the source pool, our method (SnP) results in a training set 80\% smaller than the source pool while achieving a similar or even higher re-ID accuracy. The searched training set is also superior to existing individual training sets such as Market-1501, Duke, and MSMT.
 
