@@ -119,7 +119,11 @@ Please store these datasets in a file strcuture like this
 
 ## Running example 
 
-<img src="https://github.com/yorkeyao/SnP/blob/main/images/SnP.gif" alt="drawing" width="600"/> 
+<div align="center">
+    <a href="./">
+        <img src="https://github.com/yorkeyao/SnP/blob/main/images/SnP.gif" width="600"/>
+    </a>
+</div>
 
 The SnP framework are shown in animation above. For running such process, when Market is used as target, we can seach a training set with 2860 IDs using the command below:
 
